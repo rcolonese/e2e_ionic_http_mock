@@ -1,0 +1,14 @@
+<ion-view view-title="Pokedex">
+    <ion-content class="padding">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="pesquisa por nome..." ng-model="filtro">
+            </label>
+        </div>
+        <ul class="list">
+            <li class="item pokemon" ng-repeat="pokemon in pokemons | filter:filtro">
+                {{pokemon.name}}
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
