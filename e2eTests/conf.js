@@ -11,7 +11,7 @@ exports.config = {
     },
 
     //baseUrl: 'http://localhost:8000/app/',
-    baseUrl: 'http://127.0.0.1:49321/www/',
+    baseUrl: 'http://127.0.0.1:49760/www/',
 
     framework: 'jasmine2',
 
