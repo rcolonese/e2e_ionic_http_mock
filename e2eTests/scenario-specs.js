@@ -24,11 +24,11 @@ describe('my app', function () {
         console.log('VAMOS TESTAR');
         console.log('primeiro = ' + elem.get(1).name);
         
-        element.all(by.css('.pokemon')).get(0).then(function (pokemon) {
-            console.log('primeiro = ' + pokemon.name);
-            done();
-        });
-        
+//        element.all(by.css('.pokemon')).get(0).then(function (pokemon) {
+//            console.log('primeiro = ' + pokemon.name);
+//            done();
+//        });
+        done();
     });
 
     it('fim', function (done) {
